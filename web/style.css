@@ -28,9 +28,11 @@ html{
     background-size:cover;
     background-position: center; 
 }
+
 .main h2{
     text-align: center;
 }
+
 .main-nav{
     float:right;
     list-style:none;
@@ -56,6 +58,7 @@ html{
     padding-bottom: 5px;
     transition: border-bottom 0.2s;
 }
+
 .main-nav li a:hover,
 .main-nav li a:active
 {
@@ -89,10 +92,12 @@ html{
 .footer{
     background-image: url('background.png');
 }
+
 .footer p{
     padding-left: 10px;
     display:inline-block;
 }
+
 .contact-form{
     width : 50%;
     margin : 0 auto;
@@ -135,6 +140,23 @@ input[type=submit]
 
 .social{
     display: inline-block;
+}
+
+.imgHolder{
+    list-style: none;
+    width: 100%;
+    margin-left: 50%;
+}
+ 
+.imgHolder li{
+    display: block;
+    float: left;
+    width:25%;
+}
+
+.kids{
+    width:100%;
+    margin:0;
 }
 
 
